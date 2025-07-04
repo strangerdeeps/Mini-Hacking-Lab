@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://wallpapers.com/images/high/a-dark-figure-representing-malicious-intent-bqo31einpc98i6pm.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    max-width: 750px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #000000;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.disclaimer {
+    background-color: #FF0000; /* Light red */
+    padding: 1rem;
+    border: 1px solid #FFCDD2; /* Red */
+    margin-top: 1rem;
+}
+
+.disclaimer p {
+    margin: 0;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #1;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.menu-icon {
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+  display: none;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: #;
+    padding: 10px 0;
+  }
+
+  .nav-links li {
+    margin: 0;
+    text-align: center;
+  }
+
+  .nav-links li a {
+    padding: 10px 0;
+    border-bottom: 1px solid #444;
+    width: 100%;
+    display: block;
+  }
+
+  .nav-active {
+    display: flex;
+  }
+}
+/* Add hover effect to navbar links */
+.nav-links li a:hover {
+  color: #66ff33; /* Change color on hover */
+}
+
+/* Add background color to navbar brand */
+.brand:hover {
+  background-color: #66ff33; /* Change background color on hover */
+  color: #111; /* Change text color on hover */
+}
+
+/* Add hover effect to menu icon */
+.menu-icon:hover {
+  color: #66ff33; /* Change color on hover */
+}
